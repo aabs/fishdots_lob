@@ -1,23 +1,9 @@
-# Fishdots Problem Plugin
+# Fishdots Life Object Plugin
 
-Fish shell scripts to manage problem notebooks.
+Fish shell scripts to manage life objects.
 
 ## Commands
 
-The plugin provides the following commands.
+The plugin provides the following commands:
 
-### problem
-
-### known
-
-### question
-
-### newtest
-
-### idea
-
-### new_task
-
-### summarise
-
-### consolidate
+> TBC
