@@ -1,2 +1,2 @@
 # nothing just yet...
-# abbr --add prb problem
+abbr --add lobh 'lob home'

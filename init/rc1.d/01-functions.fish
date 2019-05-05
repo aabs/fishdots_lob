@@ -5,16 +5,10 @@ function lob
   end
   switch $argv[1]
     case home; cd $FD_LOB_HOME
-    case save; lob_save
     case sync; lob_sync
     case help; lob_help
     case '*'; lob_help
   end
-end
-
-
-function lob_save -d "save all new or modified notes locally"
-  fishdots_git_save $FD_LOB_HOME  "prob updates and additions"
 end
 
 function lob_sync -d "save all notes to origin repo"
@@ -39,10 +33,6 @@ function lob_help -d "display usage info"
 
     echo "lob home"
     echo "  go to your LOB"
-    echo""
-
-    echo "lob save"
-    echo "  save any changes to local git repo"
     echo""
 
     echo "lob sync"
